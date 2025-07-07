@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>I'm_caca — Contact Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+
+    .container {
+      background: rgba(255 255 255 / 0.1);
+      border-radius: 20px;
+      padding: 3rem 4rem;
+      max-width: 450px;
+      width: 100%;
+      box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.4),
+        inset 0 0 10px rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #a6ffcb;
+      text-shadow: 0 0 10px #55ffa6;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1.3rem;
+    }
+
+    .link-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+      padding: 12px 20px;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(102, 166, 255, 0.6);
+      user-select: none;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .link-row:hover,
+    .link-row:focus-within {
+      box-shadow: 0 8px 30px rgba(102, 166, 255, 0.8);
+    }
+
+    .link-row a {
+      color: #003973;
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-grow: 1;
+      user-select: text;
+    }
+
+    .link-row a svg {
+      width: 22px;
+      height: 22px;
+      fill: #003973;
+      flex-shrink: 0;
+    }
+
+    button.copy-btn {
+      background: transparent;
+      border: none;
+      color: #003973;
+      cursor: pointer;
+      font-size: 1.3rem;
+      padding: 0 8px;
+      user-select: none;
+      transition: color 0.3s ease;
+    }
+
+    button.copy-btn:hover,
+    button.copy-btn:focus {
+      color: #001f3f;
+      outline: none;
+    }
+
+    button.copy-btn:active {
+      transform: scale(0.95);
+    }
+
+    .tooltip {
+      position: absolute;
+      background: #66a6ff;
+      color: #001f3f;
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      border-radius: 8px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      user-select: none;
+      transform: translateY(-40%);
+      white-space: nowrap;
+    }
+
+    .tooltip.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #bbb;
+      letter-spacing: 0.1em;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 2rem 2.5rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .link-row a {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <h1>I'm_caca</h1>
+    <div class="links">
+      <div class="link-row">
+        <a href="https://discord.com/users/1025675124457873459" target="_blank" rel="noopener noreferrer" aria-label="My Discord">
+          <!-- Discord SVG Icon -->
+          <svg viewBox="0 0 245 240" aria-hidden="true" focusable="false"><path d="M104.4 99.7c-5.7 0-10.3 5-10.3 11.1s4.6 11.1 10.3 11.1c5.7 0 10.3-5 10.3-11.1.1-6.1-4.6-11.1-10.3-11.1zm36.1 0c-5.7 0-10.3 5-10.3 11.1s4.6 11.1 10.3 11.1c5.7 0 10.3-5 10.3-11.1.1-6.1-4.6-11.1-10.3-11.1z"/><path d="M189.5 20h-134A27.5 27.5 0 0028 47.5v145a27.5 27.5 0 0027.5 27.5h105l-5-17 12 11 11 10 20 17V47.5A27.5 27.5 0 00189.5 20zM166 157s-6.7-7.9-12.3-15c24.6-7 34-22 34-22-7.7 5.2-15 8.9-21.5 11-9.4 4-18.4 6.8-27 8.3-17.5 3.1-33.4 2.4-47.6-.4-10.4-1.8-19.3-4.6-26.1-8.3-1.1-.5-2.6-1.1-4.1-1.8-0.2-0.1-0.4-0.2-0.6-0.3-0.1-0.1-0.2-0.1-0.3-0.2a66.7 66.7 0 01-4-2.4s9 14.2 32.6 21.9c-5.8 7-12.9 15.3-12.9 15.3-42.7-2.7-59-29.4-59-29.4 0-62.3 27.8-112.7 27.8-112.7 27.8-20.7 54.1-20.1 54.1-20.1l2 2.3c-34.7 9.9-50.6 24.7-50.6 24.7 15 7.9 26 19.3 33.4 31.2-21.2-6.3-41.5-10.6-41.5-10.6s3.5 19.3 12.6 33.6c22.9 39.8 60 34.5 60 34.5z"/></svg>
+          My Discord
+        </a>
+        <button class="copy-btn" aria-label="Copy Discord link" data-url="https://discord.com/users/1025675124457873459">📋</button>
+      </div>
+
+      <div class="link-row">
+        <a href="https://x.com/Im_caca12" target="_blank" rel="noopener noreferrer" aria-label="My Twitter">
+          <!-- Twitter SVG Icon -->
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.954 4.569c-0.885 0.392-1.83 0.656-2.825 0.775 1.014-0.611 1.794-1.574 2.163-2.723-0.951 0.555-2.005 0.959-3.127 1.184-0.897-0.956-2.178-1.555-3.594-1.555-2.719 0-4.924 2.205-4.924 4.924 0 0.386 0.045 0.763 0.127 1.124-4.09-0.205-7.719-2.165-10.148-5.144-0.423 0.724-0.666 1.562-0.666 2.457 0 1.696 0.863 3.192 2.174 4.071-0.802-0.025-1.56-0.246-2.222-0.616v0.061c0 2.37 1.685 4.348 3.918 4.797-0.41 0.111-0.842 0.171-1.287 0.171-0.314 0-0.615-0.03-0.911-0.086 0.616 1.923 2.405 3.323 4.523 3.364-1.658 1.3-3.75 2.077-6.022 2.077-0.391 0-0.779-0.023-1.161-0.067 2.15 1.379 4.705 2.184 7.455 2.184 8.942 0 13.838-7.408 13.838-13.838 0-0.21-0.004-0.42-0.014-0.63 0.95-0.685 1.78-1.54 2.438-2.513z"/></svg>
+          My Twitter
+        </a>
+        <button class="copy-btn" aria-label="Copy Twitter link" data-url="https://x.com/Im_caca12">📋</button>
+      </div>
+
+      <div class="link-row">
+        <a href="https://www.roblox.com/users/4853433053/profile" target="_blank" rel="noopener noreferrer" aria-label="My Roblox Account">
+          <!-- Roblox SVG Icon -->
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 16.828l9.172-9.172 2.828 2.828L4.828 19.656zM20 5.172l-9.172 9.172-2.828-2.828L19.172 2.344z"/></svg>
+          My Roblox Account
+        </a>
+        <button class="copy-btn" aria-label="Copy Roblox link" data-url="https://www.roblox.com/users/4853433053/profile">📋</button>
+      </div>
+    </div>
+  </div>
+  <footer>© 2025 I'm_caca</footer>
+
+  <script>
+    // Copy to clipboard functionality with tooltip
+    const copyButtons = document.querySelectorAll('.copy-btn');
+
+    copyButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const url = btn.getAttribute('data-url');
+        if (!navigator.clipboard) {
+          alert('Clipboard API not supported');
+          return;
+        }
+        navigator.clipboard.writeText(url).then(() => {
+          showTooltip(btn, 'Copied!');
+        }).catch(() => {
+          alert('Failed to copy');
+        });
+      });
+    });
+
+    function showTooltip(element, message) {
+      let tooltip = element.querySelector('.tooltip');
+      if (!tooltip) {
+        tooltip = document.createElement('span');
+        tooltip.className = 'tooltip';
+        tooltip.textContent = message;
+        element.appendChild(tooltip);
+      }
+      tooltip.classList.add('show');
+
+      setTimeout(() => {
+        tooltip.classList.remove('show');
+      }, 1500);
+    }
+  </script>
+</body>
+</html>
